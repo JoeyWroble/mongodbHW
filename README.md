@@ -15,3 +15,6 @@
   
 <b>Query Ran:</b> db. movies. find ({year: [$gt:2014},"imdb.rating": {$gt:9}}, (_id: 0, title: 1, year: 1,"imdb.rating":1}).sort ({"imdb.rating": -1})
 <img width="1286" alt="Screen Shot 2025-04-01 at 5 27 37 PM" src="https://github.com/user-attachments/assets/e3981992-6395-4c92-b4bf-77b9aeacecbf" />
+
+Quick view of the "movies" dataset on MongoDB Compass interface
+<img width="1503" alt="Screen Shot 2025-04-01 at 5 43 46 PM" src="https://github.com/user-attachments/assets/3d213a82-9d22-4df6-b88b-27b96dac4f66" />
